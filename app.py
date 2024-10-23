@@ -13,7 +13,7 @@ supabase = create_client(API_URL, API_KEY)
 
 # Email credentials
 EMAIL_ADDRESS = 'ganeshshinde0100@gmail.com'  # Your email
-EMAIL_PASSWORD = 'Ganesh@143'  # Your email password (or app password)
+EMAIL_PASSWORD = 'thezndgjzjxzalgx'  # Your email password (or app password)
 
 # Function to send email notification
 def send_email(flow_rate_1, flow_rate_2, flow_diff):
