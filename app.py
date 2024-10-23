@@ -38,5 +38,5 @@ fig3 = px.line(df, x='DateTime', y='flow_diff', title='Flow Rate Difference', ma
 st.plotly_chart(fig3, use_container_width=True)
 
 # Refresh every 5 seconds
-time.sleep(5)
+time.sleep(1)
 st.experimental_rerun()
