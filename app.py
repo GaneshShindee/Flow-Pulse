@@ -39,7 +39,7 @@ fig3 = px.line(df, x='DateTime', y='flow_diff', title='Flow Rate Difference', ma
 st.plotly_chart(fig3, use_container_width=True)
 
 # Refresh page every 5 seconds using query parameters
-refresh_interval = 5  # Set the refresh interval in seconds
+refresh_interval = 1  # Set the refresh interval in seconds
 st.experimental_set_query_params(rerun=st.experimental_get_query_params().get('rerun', 0))
 
 # Create a small delay and rerun
