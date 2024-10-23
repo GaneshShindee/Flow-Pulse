@@ -12,12 +12,12 @@ API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6
 supabase = create_client(API_URL, API_KEY)
 
 # Email credentials
-EMAIL_ADDRESS = 'your_email@gmail.com'  # Your email
-EMAIL_PASSWORD = 'your_password'  # Your email password (or app password)
+EMAIL_ADDRESS = 'ganeshshinde0100@gmail.com'  # Your email
+EMAIL_PASSWORD = 'Ganesh@143'  # Your email password (or app password)
 
 # Function to send email notification
 def send_email(flow_rate_1, flow_rate_2, flow_diff):
-    recipient_email = 'recipient_email@gmail.com'  # Replace with recipient's email
+    recipient_email = 'ganeshfromsawari@gmail.com'  # Replace with recipient's email
 
     subject = 'Flow Rate Alert'
     body = f"""
