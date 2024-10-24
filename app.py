@@ -38,3 +38,7 @@ st.markdown('### Flow Rate Difference')
 df['flow_diff'] = df['flow_rate_1'] - df['flow_rate_2']
 fig3 = px.line(df, x='DateTime', y='flow_diff', title='Flow Rate Difference', markers=True)
 st.plotly_chart(fig3, use_container_width=True)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8de3715f44658acb6c17989be6e75a7d11ac83b5
