@@ -1,8 +1,7 @@
 from supabase import create_client
-import pandas as pd 
-import streamlit as st 
+import pandas as pd
+import streamlit as st
 import plotly.express as px
-
 
 # Supabase credentials
 API_URL = 'https://bolsgescbuufddyjwxqb.supabase.co'
